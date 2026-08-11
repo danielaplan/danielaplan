@@ -1,5 +1,8 @@
-# 💫 About Me:
-### Hi there 👋 I'm Daniel S. Aplan<br><br>I'm a  **Bachelor of Science in Information Technology** student at the University of Caloocan City, passionate about software development and network engineering. <br><br>
+### 💫 About Me:
+
+### Hi there 👋 I'm Daniel S. Aplan
+
+I am an Information Technology student at the University of Caloocan City with a strong focus on software development and network engineering. I enjoy building practical applications and designing robust network architectures. <br><br>
 
 
 ## 🌐 Socials:
