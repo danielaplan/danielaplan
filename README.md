@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=Hi+there+%F0%9F%91%8B+I'm+Daniel+S.+Aplan;I+build+practical+applications;IT+Student+%40+University+of+Caloocan+City" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=680&lines=Hi+there+%F0%9F%91%8B+I'm+Daniel;I+like+building+apps+people+actually+use;IT+student+%40+University+of+Caloocan+City" alt="typing" />
 </div>
 
 <br/>
@@ -22,14 +22,14 @@
 
 ### 💫 About Me
 
-I'm **Daniel S. Aplan**, an Information Technology student at the **University of Caloocan City**.
+Hey, I'm **Daniel**, an Information Technology student at the **University of Caloocan City**.
 
-I focus on **software development** — building practical applications people can actually use. I care about clean interfaces, solid architecture, and shipping work that looks as good as it runs.
+I'm really into **software development**, especially building apps that real people can pick up and use. I care about clean interfaces and a solid foundation underneath, and I want my work to look as good as it runs.
 
-- 🔭 Building with **React**, **Node.js**, and **PHP**
-- 🎨 Design-minded — Photoshop, Illustrator, Lightroom
-- 💼 Open to internships, collabs, and freelance
-- 🔗 [View my portfolio](https://port-folio-gamma-dusky.vercel.app/#projects)
+- 🔭 Mostly building with **React**, **Node.js**, and **PHP**
+- 🎨 I also love design, so you'll find me in Photoshop, Illustrator, and Lightroom
+- 💼 Open to internships, collabs, and freelance gigs
+- 🔗 [Take a look at my portfolio](https://port-folio-gamma-dusky.vercel.app/#projects)
 
 ---
 
