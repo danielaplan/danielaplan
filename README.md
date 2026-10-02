@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:020617,45:0E7490,100:4F46E5&text=Daniel%20S.%20Aplan&fontAlignY=38&fontSize=48&fontColor=F8FAFC&desc=IT%20Student%20%7C%20Software%20Developer&descAlignY=58&descSize=18&animation=fadeIn&strokeWidth=0" width="100%" alt="header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:020617,45:0E7490,100:4F46E5&text=Daniel%20S.%20Aplan&fontAlignY=38&fontSize=48&fontColor=F8FAFC&desc=IT%20Student%20%7C%20Software%20/%20Web%20Developer&descAlignY=58&descSize=18&animation=fadeIn&strokeWidth=0" width="100%" alt="header" />
 </div>
 
 <div align="center">
@@ -24,7 +24,7 @@
 
 Hey, I'm **Daniel**, an Information Technology student at the **University of Caloocan City**.
 
-I'm really into **software development**, especially building apps that real people can pick up and use. I care about clean interfaces and a solid foundation underneath, and I want my work to look as good as it runs.
+I'm really into **software / web development**, especially building apps that real people can pick up and use. I care about clean interfaces and a solid foundation underneath, and I want my work to look as good as it runs.
 
 - 🔭 Mostly building with **React**, **Node.js**, and **PHP**
 - 🎨 I also love design, so you'll find me in Photoshop, Illustrator, and Lightroom
