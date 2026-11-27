@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1117">
+  <title>Daniel Aplan — README color themes</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --accent: #3fb950;
+      --background: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      font-family: Consolas, Menlo, "DejaVu Sans Mono", monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .terminal,
+    .section,
+    .palette {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--panel);
+    }
+
+    .terminal {
+      overflow: hidden;
+      border-color: color-mix(in srgb, var(--accent) 65%, var(--border));
+    }
+
+    .terminal-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .dot {
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: #ff5f56;
+    }
+
+    .dot:nth-child(2) {
+      background: #ffbd2e;
+    }
+
+    .dot:nth-child(3) {
+      background: #27c93f;
+    }
+
+    .terminal-title {
+      margin: 0 auto;
+      padding-right: 45px;
+    }
+
+    .terminal-content {
+      padding: 24px;
+    }
+
+    .prompt,
+    h1,
+    h2,
+    .tag {
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 8px 0;
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+    }
+
+    .intro {
+      color: var(--muted);
+    }
+
+    .palette {
+      margin-top: 20px;
+      padding: 16px;
+    }
+
+    .palette-label {
+      display: block;
+      margin-bottom: 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .swatches {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .swatch {
+      width: 38px;
+      height: 24px;
+      padding: 0;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      background: var(--swatch);
+      cursor: pointer;
+    }
+
+    .swatch:hover,
+    .swatch:focus-visible {
+      outline: 2px solid var(--text);
+      outline-offset: 3px;
+    }
+
+    .swatch[aria-pressed="true"] {
+      border-color: var(--text);
+      box-shadow: 0 0 0 2px var(--accent);
+    }
+
+    .section {
+      margin-top: 18px;
+      padding: 20px;
+    }
+
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 1.1rem;
+    }
+
+    .section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .skills,
+    .projects,
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag,
+    .project,
+    .links a {
+      padding: 6px 10px;
+      border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border));
+      border-radius: 6px;
+      background: color-mix(in srgb, var(--accent) 9%, var(--panel));
+      text-decoration: none;
+    }
+
+    .project {
+      color: var(--text);
+    }
+
+    .notice {
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 20px 12px 36px;
+      }
+
+      .terminal-content {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="terminal">
+    <div class="terminal-bar">
+      <span class="dot" aria-hidden="true"></span>
+      <span class="dot" aria-hidden="true"></span>
+      <span class="dot" aria-hidden="true"></span>
+      <span class="terminal-title">danielaplan — interactive README preview</span>
+    </div>
+    <div class="terminal-content">
+      <span class="prompt">daniel@github:~$</span> whoami
+      <h1>Daniel S. Aplan</h1>
+      <p class="intro">Information Technology student at the University of Caloocan City. I build practical software and web applications, and I’m open to internships, freelance work, and collaborations.</p>
+      <nav class="links" aria-label="Profile links">
+        <a href="https://port-folio-gamma-dusky.vercel.app/#projects">Portfolio</a>
+        <a href="https://www.linkedin.com/in/daniel-aplan-5ba561334">LinkedIn</a>
+        <a href="mailto:danielaplan.bsit2024@gmail.com">Email</a>
+        <a href="https://github.com/danielaplan">GitHub</a>
+      </nav>
+      <section class="palette" aria-labelledby="palette-label">
+        <span class="palette-label" id="palette-label">Choose a color:</span>
+        <div class="swatches" role="group" aria-label="Color themes">
+          <button class="swatch" type="button" style="--swatch:#e67373" data-color="#e67373" aria-label="Coral theme" aria-pressed="false"></button>
+          <button class="swatch" type="button" style="--swatch:#f29a4a" data-color="#f29a4a" aria-label="Orange theme" aria-pressed="false"></button>
+          <button class="swatch" type="button" style="--swatch:#e4b844" data-color="#e4b844" aria-label="Gold theme" aria-pressed="false"></button>
+          <button class="swatch" type="button" style="--swatch:#3fb950" data-color="#3fb950" aria-label="Green theme" aria-pressed="true"></button>
+          <button class="swatch" type="button" style="--swatch:#56d4dd" data-color="#56d4dd" aria-label="Cyan theme" aria-pressed="false"></button>
+          <button class="swatch" type="button" style="--swatch:#79c0ff" data-color="#79c0ff" aria-label="Blue theme" aria-pressed="false"></button>
+          <button class="swatch" type="button" style="--swatch:#d2a8ff" data-color="#d2a8ff" aria-label="Purple theme" aria-pressed="false"></button>
+          <button class="swatch" type="button" style="--swatch:#e6edf3" data-color="#e6edf3" aria-label="Light theme" aria-pressed="false"></button>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>$ ls -la ~/skills</h2>
+      <div class="skills" aria-label="Skills">
+        <span class="tag">Java</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">PHP</span>
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Tailwind CSS</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">SQLite</span>
+        <span class="tag">Supabase</span>
+        <span class="tag">Git</span>
+        <span class="tag">UI/UX</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>$ tree ~/projects</h2>
+      <div class="projects" aria-label="Projects">
+        <a class="project" href="https://github.com/danielaplan/PortFolio">PortFolio</a>
+        <a class="project" href="https://github.com/danielaplan/Rental-Ops-Manager">Rental-Ops-Manager</a>
+        <a class="project" href="https://github.com/danielaplan/Studymate-AI">Studymate-AI</a>
+        <a class="project" href="https://github.com/danielaplan/Daywise">Daywise</a>
+        <a class="project" href="https://github.com/danielaplan/FaithQuest">FaithQuest</a>
+        <a class="project" href="https://github.com/danielaplan/Messiah-Baptist-Church-Official-Website">Messiah Baptist Church Website</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>$ ./connect.sh</h2>
+      <p class="intro">Let’s build web apps, software, databases, and useful interfaces together.</p>
+      <div class="links">
+        <a href="mailto:danielaplan.bsit2024@gmail.com">Send a message</a>
+        <a href="https://port-folio-gamma-dusky.vercel.app/#projects">View portfolio</a>
+      </div>
+    </section>
+  </main>
+
+  <p class="notice">This is an interactive preview. GitHub’s profile README itself remains static; use the palette here to preview accent colors.</p>
+  <script>
+    const swatches = document.querySelectorAll(".swatch");
+
+    swatches.forEach((swatch) => {
+      swatch.addEventListener("click", () => {
+        document.documentElement.style.setProperty("--accent", swatch.dataset.color);
+        swatches.forEach((item) => {
+          item.setAttribute("aria-pressed", String(item === swatch));
+        });
+      });
+    });
+  </script>
+</body>
+</html>
