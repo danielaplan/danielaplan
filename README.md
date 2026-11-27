@@ -16,7 +16,7 @@
 
 ### whoami
 
-I'm **Daniel S. Aplan**, an Information Technology student at the **University of Caloocan City**. I enjoy building practical software and web applications, combining clean interfaces with a solid technical foundation. I'm open to internships, freelance work and collaborations.
+I'm **Daniel S. Aplan**, an Innformation Technology student at the **University of Caloocan City**. I enjoy building practical software and web applications, combining clean interfaces with a solid technical foundation. I'm open to internships, freelance work and collaborations.
 
 #### `developer.id`
 
