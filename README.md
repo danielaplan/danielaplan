@@ -9,8 +9,6 @@
   [![Facebook](https://img.shields.io/badge/FACEBOOK-0d1117?style=for-the-badge&logo=facebook&logoColor=3fb950)](https://www.facebook.com/daniel.aplan.9)
   [![Instagram](https://img.shields.io/badge/INSTAGRAM-0d1117?style=for-the-badge&logo=instagram&logoColor=3fb950)](https://www.instagram.com/dniel_apln)
 
-  [🎨 Change color theme](https://danielaplan.github.io/theme.html)
-
   <a href="#whoami">whoami</a> · <a href="#skills">skills</a> · <a href="#projects">projects</a> · <a href="#stats">stats</a> · <a href="#connect">connect</a>
 </div>
 
@@ -23,7 +21,7 @@ I'm **Daniel S. Aplan**, an Information Technology student at the **University o
 #### `developer.id`
 
 <div align="center">
-  <img src="assets/idcard.svg" width="70%" alt="Developer ID card for Daniel S. Aplan" />
+  <img src="assets/idcard.svg" width="90%" alt="Developer ID card for Daniel S. Aplan" />
 </div>
 
 ---
